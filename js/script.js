@@ -146,7 +146,7 @@ for (let i = 0; i < totalCorazones; i++) {
         color: `hsl(${340 + Math.random() * 25}, 100%, ${65 + Math.random() * 15}%)`
     });
 }
-
+//ultimos arrreglos
 const frases = [
     "Eres mi universo entero",
     "Cada estrella brilla por ti",
