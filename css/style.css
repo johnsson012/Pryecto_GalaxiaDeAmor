@@ -36,7 +36,7 @@ canvas {
     /* --- FONDO DE IMAGEN --- */
     background-color: #98029a; /* Color de respaldo morado por si la foto tarda un segundo en cargar */
     
-    background-image: url('../img/imgF.JPG'); /* Tu foto de fondo */
+    background-image: url('../img/imgF.jpg'); /* Tu foto de fondo */
     background-size: cover; /* Cubre toda la pantalla sin deformarse */
     background-position: center; /* Centra la foto */
     background-repeat: no-repeat; /* Evita que se repita como mosaico */
