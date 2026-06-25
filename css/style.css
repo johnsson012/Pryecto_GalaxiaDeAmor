@@ -5,6 +5,7 @@
     user-select: none;
 }
 
+
 body, html {
     width: 100%;
     height: 100%;
@@ -23,16 +24,32 @@ canvas {
 
 /* Cortina de bienvenida negra */
 .pantalla-inicio {
+    /* --- ESTRUCTURA Y POSICIÓN --- */
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background-color: #05000a;
-    z-index: 10; /* Por encima del canvas */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    min-height: 100vh;
+    z-index: 10; /* Mantiene la cortina por encima del canvas de la galaxia */
+    
+    /* --- FONDO DE IMAGEN --- */
+    background-color: #98029a; /* Color de respaldo morado por si la foto tarda un segundo en cargar */
+    
+    background-image: url('../img/imgF.JPG'); /* Tu foto de fondo */
+    background-size: cover; /* Cubre toda la pantalla sin deformarse */
+    background-position: center; /* Centra la foto */
+    background-repeat: no-repeat; /* Evita que se repita como mosaico */
+    
+    /* --- ALINEACIÓN DEL TEXTO Y BOTÓN --- */
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
+    /* --- EFECTO DE DESAPARICIÓN --- */
     transition: opacity 0.8s ease;
 }
-
 .contenido-intro { text-align: center; color: white; }
 .contenido-intro h1 { font-size: 2.2rem; margin-bottom: 10px; }
 .contenido-intro p { color: #ff69b4; font-weight: bold; margin-bottom: 30px; letter-spacing: 2px;}

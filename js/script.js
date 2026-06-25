@@ -1,5 +1,5 @@
 // ==========================================
-// 1. CAPTURA DEL LIENZO Y AJUSTE RESPONSIVO
+// 1. SCRRIP DE FUNCIONES PARA ESTRELLS CORAXON  MOVIMIENTO
 // ==========================================
 const canvas = document.getElementById('galaxia');
 const ctx = canvas.getContext('2d');
@@ -154,7 +154,10 @@ const frases = [
     "Caminemos juntos entre constelaciones",
     "En este y en cualquier universo te elegiría",
     "Contigo el tiempo no existe",
-    "Mi lugar favorito es a tu lado"
+    "Mi lugar favorito es a tu lado",
+    "TE QUIERO MUCHO",
+    "Mi Negrita Candela jaja",
+    "Despertar a tu lado, es lo mejor"
 ];
    frases.forEach((frase, index) => {
         elementos3D.push({
