@@ -157,6 +157,7 @@ const frases = [
     "Mi lugar favorito es a tu lado",
     "TE QUIERO MUCHO",
     "Mi Negrita Candela jaja",
+    "MOR MOR MOR",
     "Despertar a tu lado, es lo mejor"
 ];
    frases.forEach((frase, index) => {
